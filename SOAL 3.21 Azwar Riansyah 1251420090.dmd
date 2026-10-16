@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SOAL 3.21 Azwar Riansyah 1251420090" id="306F7880-D151-8D59-15EF-F4FE6B1543BC" version="3.5">
-<createdBy>USER</createdBy>
-<createdTime>2026-10-16 05:43:32 UTC</createdTime>
-<ownerDesignName>SOAL 3.21 Azwar Riansyah 1251420090</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>306F7880-D151-8D59-15EF-F4FE6B1543BC</designId>
-</OSDM_Design>
