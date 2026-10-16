@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78D5A07E-409C-BE84-E3FF-B49E0085C2CD" name="Airplane">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>110AB990-BAE3-36A9-29EF-D47303FCA4D2</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airplane_id" id="217805D9-8ABD-E1EC-A5E0-3A05B1CD624B">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>BB5723D2-34DF-3B54-50AD-C56C50402789</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_seats" id="6377AD5A-ADF9-E5D0-71FC-C6B509FDAF84">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>39C22613-0504-9979-34D1-72337B7E300A</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_name" id="67C77086-8840-36BE-87F1-25962132FE19">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>6C18A855-5F0D-D6AA-3591-201C8883A3FB</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airplane_Type_Type_name" id="C30F7189-5342-6E14-DF7A-19A13D05B0FC">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>D2ACE60B-12AE-2439-1DD4-7146F197B1B3</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7EF3D308-E777-57E7-67FF-7E35C1ACB5CB" referredColumn="48F37733-2295-CDD1-1817-06AB9406ACD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="983F1A29-4D74-DA38-C6AB-B3DE7FEF5B8E" name="Airplane_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>56E2CA4E-6342-1012-B00A-22BB8C0EF195</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="217805D9-8ABD-E1EC-A5E0-3A05B1CD624B"/>
+<colUsage columnID="67C77086-8840-36BE-87F1-25962132FE19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D36BFB8-48E5-3547-CC9D-ECE8FED1B68D" name="Airplane_Airplane_Type_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>E93AB9DD-6D99-9803-1919-25556722A8DA</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C30F7189-5342-6E14-DF7A-19A13D05B0FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

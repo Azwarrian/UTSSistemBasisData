@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E61398FB-88A0-6FE4-18F2-0DA4759F7DF1" name="Airport">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>3A401FF3-967B-C471-DB95-2522CB0EBD79</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Airport_code" id="D05BFF8A-E7EB-58DA-EB34-18AAA6659C15">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>9EE59306-6A8E-56E7-B206-3194D617D148</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="FD2BBC9C-DDDC-6435-21F4-CB4FB41448D9">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>93BAD236-6006-673F-C852-86E0EC3447A9</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="7479658B-D3AE-EAA2-739E-F9DAAC3C1797">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>990487CB-021D-8EB9-5311-B90686469FAE</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="E5920805-20E5-859C-0246-898ABEB7F37F">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>91F437C4-EE25-918E-F341-CCD06D225FB7</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5B99D2B-732B-44BA-BA31-B7BF224201DB" name="Airport_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>915999C7-6198-F28B-72EF-B103AABB3C6C</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05BFF8A-E7EB-58DA-EB34-18AAA6659C15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

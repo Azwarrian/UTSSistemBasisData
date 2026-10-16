@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55BF1505-1030-E457-244B-140D1461CDD2" name="Fare">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>0BC57E1A-5F64-7F13-384C-015C2511A18F</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Flight_number" id="921C8AB0-3F2F-DC52-B964-8DDE3C2ACA10">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>BF615830-4FB2-41C0-6E3E-CA77246BDA43</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fare_code" id="E3211F78-63DF-0AD7-2893-566F21EE024C">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>FF9D301E-4360-8661-798B-1955F118C9B9</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="B3642CF9-DB5F-033F-515B-84EBA202FA4C">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>54058EAD-8E22-1D9A-C830-61741175FF4B</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restrictions" id="E65BBE98-7074-7CEA-5BFA-93233EEB27B8">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>A9A5E35D-6886-F7D8-D13C-4D88C64E1E8E</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Flight_Flight_ID" id="526107B8-66A9-7BD7-C062-0BC5D317F66E">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5C37189-8637-C68D-208E-08B88CBA6D7F" referredColumn="10303238-B115-2A3E-553E-F0D4248B1104"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22CB27DC-E711-8125-BA26-9E9B1850E310" name="Fare_Flight_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>87F71AE2-6D47-E9C4-D2DD-C45ACA74F30E</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="526107B8-66A9-7BD7-C062-0BC5D317F66E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

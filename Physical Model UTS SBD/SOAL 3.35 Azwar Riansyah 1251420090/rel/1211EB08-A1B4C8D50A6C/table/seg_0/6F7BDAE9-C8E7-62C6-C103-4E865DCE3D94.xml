@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F7BDAE9-C8E7-62C6-C103-4E865DCE3D94" name="Can_Land">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>F7A5AEE3-3631-F9D3-CD1D-290D87DF8AF6</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Type_name" id="DE60F9D1-2322-9B5C-5FF9-9EB6BC5625AC">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>9F99D12C-0CC9-70CA-C78E-A3FE8369C77A</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airport_code" id="4A955CCB-C345-CB62-9D02-E9F2D95EB914">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>014CF060-CC6F-A456-B004-CCE1CAABCCF4</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Airplane_Type_Type_name" id="30743033-7269-E26A-D42C-5D424A448FF5">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>7B8FD5B4-7FC6-652C-8E2F-8806F0D2D589</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FFB07B8-69C2-9D08-2E5E-96F37C3FC325" referredColumn="48F37733-2295-CDD1-1817-06AB9406ACD3"/>
+</associations>
+</Column>
+<Column name="Airport_Airport_code" id="506A15ED-4125-A01C-CE25-0286708FF548">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>71ADA5BC-88E4-28E5-F71E-165BDD97FD1A</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5FF5041-52CF-8EDF-CA7D-AD940D2F15EB" referredColumn="D05BFF8A-E7EB-58DA-EB34-18AAA6659C15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5C01BAF-4843-BC7A-D166-38FF59366711" name="Can_Land_PK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>360E52B4-5827-5AFE-96CD-3BB171F2A69B</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE60F9D1-2322-9B5C-5FF9-9EB6BC5625AC"/>
+<colUsage columnID="4A955CCB-C345-CB62-9D02-E9F2D95EB914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="565414FA-7564-4F86-0A19-087783188FD7" name="Can_Land_Airplane_Type_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>9B61FA1D-AB33-FBF5-83B9-EF02DF96F666</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30743033-7269-E26A-D42C-5D424A448FF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FC903D0-DDF4-3777-6388-8AE986906341" name="Can_Land_Airport_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>7E8A4B21-283A-FB73-BEB5-7184C8DAC000</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="506A15ED-4125-A01C-CE25-0286708FF548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

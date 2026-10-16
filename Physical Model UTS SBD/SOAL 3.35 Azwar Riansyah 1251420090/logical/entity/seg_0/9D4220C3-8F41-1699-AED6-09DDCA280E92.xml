@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D4220C3-8F41-1699-AED6-09DDCA280E92" name="Leg_Instance">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:37:53 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Flight_Number" id="780ED408-0CEB-DF83-5494-B0B17A46E9BB">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:38:03 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Leg_no" id="52787520-6F68-4E52-E50E-00F0C87EA64D">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:38:16 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Leg_date" id="16921566-DE02-23D6-2F58-7FA5D4C3D8B7">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:38:26 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Avail_seats" id="3CEC01DD-0E43-C25C-46A7-BFAEAB32CF25">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:38:41 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dep_airport" id="39DCAB14-1D64-D552-868A-70BD5A862F7B">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:39:04 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dep_time" id="E8ABDEFA-6510-C596-C62C-6BC21A2FF82B">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:39:23 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arr_Airport" id="6384469F-AE82-EE24-4B0F-5DFEDE1E875F">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:39:36 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arr_time" id="9A22EC79-E272-73E2-1559-D2BB26BCCB0E">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:40:03 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airplane_id" id="481E91E1-661F-7BDF-A81D-57F4AED6B8A0">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:13 UTC</createdTime>
+<generatorID>5C784BB0-30D2-A8B7-B249-B0B1CB8E3AC6</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<referedAttribute>BB5723D2-34DF-3B54-50AD-C56C50402789</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type_name" id="55DCDBBF-1BEA-50F8-0682-A1F822097922">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:13 UTC</createdTime>
+<generatorID>5C784BB0-30D2-A8B7-B249-B0B1CB8E3AC6</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<referedAttribute>6C18A855-5F0D-D6AA-3591-201C8883A3FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

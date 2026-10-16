@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="87F71AE2-6D47-E9C4-D2DD-C45ACA74F30E">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:02 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FF00864-0A0E-AA7B-D85F-73D10F870DA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BC57E1A-5F64-7F13-384C-015C2511A18F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

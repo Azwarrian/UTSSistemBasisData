@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="27F66792-4667-0860-B20E-46E7D5F0ECE8" containerWithKeyObject="ABB2B8ED-66F0-A211-9799-8DF58E8E7EFC" localFKIndex="E2DB6D28-02B5-1842-8783-A0E8125112D8" name="Leg_Instance_Flight_Leg_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>05FCE0B8-9618-6938-1AA4-7C357EAF443B</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<referredTableLongName>Flight_Leg</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A2EFB9D-4056-9869-4A0F-5BD4A1CDA9EB</referredTableID>
+<keyObject>B68B4D64-03E5-8E8A-3EC8-2172FC4D7E12</keyObject>
+<referredKeyID>B68B4D64-03E5-8E8A-3EC8-2172FC4D7E12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Flight_Leg_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

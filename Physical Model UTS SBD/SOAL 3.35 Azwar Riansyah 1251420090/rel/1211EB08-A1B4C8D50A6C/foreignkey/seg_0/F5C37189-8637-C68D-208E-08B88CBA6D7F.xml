@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5C37189-8637-C68D-208E-08B88CBA6D7F" containerWithKeyObject="55BF1505-1030-E457-244B-140D1461CDD2" localFKIndex="22CB27DC-E711-8125-BA26-9E9B1850E310" name="Fare_Flight_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>87F71AE2-6D47-E9C4-D2DD-C45ACA74F30E</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<referredTableLongName>Flight</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF08E872-1269-1637-C376-2BE3D42E7C5D</referredTableID>
+<keyObject>BAE62D89-706E-0250-1116-84FD6D835E26</keyObject>
+<referredKeyID>BAE62D89-706E-0250-1116-84FD6D835E26</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Flight_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

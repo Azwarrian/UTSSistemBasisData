@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FFB07B8-69C2-9D08-2E5E-96F37C3FC325" containerWithKeyObject="6F7BDAE9-C8E7-62C6-C103-4E865DCE3D94" localFKIndex="565414FA-7564-4F86-0A19-087783188FD7" name="Can_Land_Airplane_Type_FK">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:43:34 UTC</createdTime>
+<generatorID>9B61FA1D-AB33-FBF5-83B9-EF02DF96F666</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<referredTableLongName>Airplane_Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1EE54B1D-4B18-5B79-11AB-469492161424</referredTableID>
+<keyObject>1D650344-9B61-AEDD-D4E8-9E89A644F9A3</keyObject>
+<referredKeyID>1D650344-9B61-AEDD-D4E8-9E89A644F9A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Type_name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="110AB990-BAE3-36A9-29EF-D47303FCA4D2" name="Airplane">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:30:48 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Airplane_id" id="BB5723D2-34DF-3B54-50AD-C56C50402789">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:30:54 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_seats" id="39C22613-0504-9979-34D1-72337B7E300A">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:31:06 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type_name" id="6C18A855-5F0D-D6AA-3591-201C8883A3FB">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:31:18 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type_name1" id="D2ACE60B-12AE-2439-1DD4-7146F197B1B3">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:42:43 UTC</createdTime>
+<generatorID>E93AB9DD-6D99-9803-1919-25556722A8DA</generatorID>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<referedAttribute>0C789127-939A-95FE-9A7E-642797F0C92F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56E2CA4E-6342-1012-B00A-22BB8C0EF195" name="Key_1">
+<createdBy>USER</createdBy>
+<createdTime>2026-10-16 07:31:50 UTC</createdTime>
+<ownerDesignName>SOAL 3.35 Azwar Riansyah 1251420090</ownerDesignName>
+<engineerTo>
+<item key="1211EB08-5F47-B8F2-70D8-A1B4C8D50A6C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BB5723D2-34DF-3B54-50AD-C56C50402789,6C18A855-5F0D-D6AA-3591-201C8883A3FB</newElementsIDs>
+<usedAttributes>
+<attributeRef>BB5723D2-34DF-3B54-50AD-C56C50402789</attributeRef>
+<attributeRef>6C18A855-5F0D-D6AA-3591-201C8883A3FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
